@@ -10,13 +10,13 @@
   "env": {
     "DATABASE_URL": {
       "description": "your mongodb database url",
-      "required": false,
+      "required": true,
       "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ05GZDNndFJQZllDbkpVbnEzWDZRVkZuZ2pOcEUvaGd0eXMzR3JJWnJXdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTE52bXdhcFlyUGN4WjFGZktIekFXTGd5K0h1MkpvcHZ3eWl3T0Rla0pDMD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBRzI0d2tBUDN2cHRmeFVSMEhSNWlsTDVzeDkrOXBVZkZnNldwODBIL0VjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJaSXNVQ0gvNytWa3VDSjVOdGdQbG9Kc2E1K05OT2xHNDFEWEtOZDhUeHp3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhBZWdnVkMwTTFMWU1FZFJaWTJ6SUFCeWYyZG81Y0FwK2VWMVdtZXlEME09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlrSmxDNVZWMHdjdGdJc0RCV3ZwWXJ4L1RReEExTXlsTi9nK1kyWkxCU1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZURwMFlqVDlEZ2t2VWpyREtTNHlnU2t3azNhWEVCVVlmcngrTWRhT3gyMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUTh0bWhWYnB5eGdacFp6OHZLZ0JxeUd4Wld5OGNlWWI3VXp6RVlmQlVRVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IktjLzhUZHlUMDBTamMxVTAyMG0yOHByVVdDdmRFYjFlbWFOOW1PY3RZeXNLYW9wSmNMYVNOT05halM3cW0zdDgxRG8rZkFBRzRNcWlOVWdUZUlNUEJRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE4LCJhZHZTZWNyZXRLZXkiOiJjQkx2ZFRUYnE1YjNZSDYvbStHSFhrSmZpcmRzQncwNm05QVYrNXdkSVc0PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NjcwMDI0NzQ3MEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJDQTgyMjg4N0QzMkEyMDE4QUM5RDE4MUI1OEU3NzkxMSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzM4NDQwMDQ3fSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTY3MDAyNDc0NzBAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNThDRDhDRUVGMjNEMUQzNTE2MjJBRUFENjIxMjc3RUMifSwibWVzc2FnZVRpbWVzdGFtcCI6MTczODQ0MDA1MH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiNTI2cUNpZElURjZCemlpcWpEVXNmUSIsInBob25lSWQiOiJkOGZjNWU0OC04NjJhLTQ3N2UtOTIxZC0xYjg4NDJkNDNkODUiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUWZ1dk9JcEE3aGVKRlVBOXExWWNEdDljM01RPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InArSFVPZDZ2eTE5Q09DMFRjcmJpL20xUG80Yz0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJUS1hBUUNTWCIsIm1lIjp7ImlkIjoiMjU2NzAwMjQ3NDcwOjMwQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNJK2ZnclFERU9UNitid0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiI4Slk3aFUvMHVYa1Zhb2Fsam03Wkc5YUFKOWJxYzM5ZTByVkcvYzZXR1FrPSIsImFjY291bnRTaWduYXR1cmUiOiJHMkRueW1maGdRVlBaOU1DdlhObHA5b0gxSWxCQVhvOUdocUtVb0JZazlsQ2ZaRDMvNC9jRTV5UGJtQkJWZEx0dVgxeHRUb2M5enBzZFdtNjlRZTBCdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoibm9kelE3MnBFOGVpdis4RWlqTjYvNTZveHVxeUpEQ1BZaUVrRlVmL1hQV2NZVnhwUVZlNW94MWFvVUxTbkxYQVdaODg5UHlESGNvakcrbzF6bk9BRGc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTY3MDAyNDc0NzA6MzBAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZkNXTzRWUDlMbDVGV3FHcFk1dTJSdldnQ2ZXNm5OL1h0SzFSdjNPbGhrSiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczODQ0MDA0MCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFDL0QifQ=="
     },
     "MODE": {
       "description": "mode public or private",
@@ -26,7 +26,7 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": "*"
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -40,7 +40,7 @@
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "autoRead": {
@@ -51,7 +51,7 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
